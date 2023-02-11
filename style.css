@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2.4rem;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.header-left-col {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.list-item {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+}
+
+.logo img {
+}
+
+/* Section-Hero */
+.hero-section {
+  padding: 2rem 2.8rem;
+}
+
+.hero__actions {
+}
+
+.actions-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.content-box {
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 auto;
+}
+
+.content-box h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.content-box p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+
+.footer {
+  display: grid;
+}
